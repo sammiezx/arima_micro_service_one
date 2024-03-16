@@ -53,4 +53,4 @@ def forecast():
         return jsonify({'error': 'File format not supported'}), 400
 
 if __name__ == '__main__':
-    app.run(port=8888)  # Remove debug=True in production
+    app.run(port=7777)  # Remove debug=True in production
